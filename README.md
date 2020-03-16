@@ -1,4 +1,4 @@
-# Markdown_Blog [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/abir.pal899@gmail.com)
+# Markdown_Blog  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/abir.pal899@gmail.com)
 This is an application where you can write articles for your blog using markdown syntax. And ofcourse you can modify them, edit them and delete them too
 ## Preview:
 <img height=420 width=720 src="https://raw.githubusercontent.com/imabp/Markdown_Blog/master/screenshots/screenshot.png"/><br>
