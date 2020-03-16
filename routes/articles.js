@@ -18,7 +18,7 @@ router.get('/:slug', async (req, res) => {
 })
 
 router.post('/', async (req, res, next) => {
-  req.article = new Article()
+  req.article = await new Article()
   next()
 }, saveArticleAndRedirect('new'))
 
@@ -42,7 +42,7 @@ function saveArticleAndRedirect(path) {
       article = await article.save()
       res.redirect(`/articles/${article.slug}`)
     } catch (e) {
-      res.render(`articles/${path}`, { article: article })
+     await  res.render(`articles/${path}`, { article: article })
     }
   }
 }
