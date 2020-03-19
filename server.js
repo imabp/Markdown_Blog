@@ -15,7 +15,7 @@ mongoose.connect(process.env.DATABASE_URL, {
 app.set('view engine', 'ejs')
 app.use(express.urlencoded({limit: '10mb', extended: false }))
 app.use(methodOverride('_method'))
-
+app.use(express.static('public'));
 app.get('/', async (req, res) => {
   const articles = await Article.find().sort({ createdAt: 'desc' })
   res.render('articles/index', { articles: articles })
@@ -23,4 +23,4 @@ app.get('/', async (req, res) => {
 
 app.use('/articles', articleRouter)
 
-app.listen(process.env.PORT || 5000);
+app.listen(process.env.PORT || 5550);
