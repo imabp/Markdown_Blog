@@ -1,3 +1,5 @@
+# Great News This web app has been featured by Founder of GirlScript India on linkedin
+# [Click to see on Linkedin](https://www.linkedin.com/posts/anubhamane_blogwriter-software-webapps-activity-6646331780376903681-RO29)
 # Markdown_Blog  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/abir.pal899@gmail.com)
 This is an application where you can write articles for your blog using markdown syntax. And ofcourse you can modify them, edit them and delete them too
 ## Preview:
